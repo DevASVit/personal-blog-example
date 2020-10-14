@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+<!--
+    <meta name="keywords" content="важные, ключевые, слова">
+    <meta name="description" content="краткое описание">
+-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Zaverstai</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="background-home">
+        <div class="header-content flex-space-beetween container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="логотип">
+            </div>
+                
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#posts">Статьи</a></li>
+                    <li><a href="#about-me">Обо мне</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#write-me">Написать мне</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Posts -->
+
+        <section id="posts">
+            <div class="flex-space-beetween">
+                <h1>Все статьи</h1>
+                <select name="topic">
+                    <option selected disabled>Выбрать тему</option>
+                    <option value="recipes">Рецепты</option>
+                    <option value="photos">Фотографии</option>
+                    <option value="books">Книги</option>
+                    <option value="city">Город</option>
+                    <option value="travels">Путешествия</option>
+                    <option value="all-articles">Все статьи</option>
+                </select>
+            </div>
+            
+            <div class="posts-container flex-space-beetween">
+            <a href="./pages/how-to-motivate-yourself.html">
+                <figure class="small-article">
+                    <img src="./images/travel-to-berlin-in-august.jpg" alt="фото к статье" />
+                    <figcaption>
+                        <h2>Путешествие в Берлин в августе</h2>
+                        <p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+                        <div class="details flex-space-beetween">
+                            <p>Теги: путешествия</p>
+                            <time datetime="2020-09-29">29.09.2020</time>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+
+            <a href="./pages/how-to-motivate-yourself.html">
+                <figure class="small-article">
+                    <img src="./images/cold-bru-in-moscow.jpg" alt="фото к статье" />
+                    <figcaption>
+                        <h2>Где выпить колдбрю в Москве</h2>
+                        <p>Собрала для вас список любимых кофеен,<br> где подают лучший летний напиток.</p>
+                        <div class="details flex-space-beetween">
+                            <p>Теги: город</p>
+                            <time datetime="2020-07-24">24.07.2020</time>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+
+            <a href="./pages/how-to-motivate-yourself.html">
+                <figure class="small-article">
+                    <img src="./images/book-recommendations.jpg" alt="фото к статье" />
+                    <figcaption>
+                        <h2>Прочитано: книжные рекомендации</h2>
+                        <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                        <div class="details flex-space-beetween">
+                            <p>Теги: книги</p>
+                            <time datetime="2020-07-15">15.07.2020</time>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+
+            <a href="./pages/how-to-motivate-yourself.html">
+                <figure class="large-article">
+                    <img src="./images/snapshoots-on-film.jpg" alt="фото к статье" />
+                    <figcaption>
+                        <h2>Снимки на плёнку</h2>
+                        <p>Поделилась с вами весенними фотографиями, и секретами удачных снимков.</p>
+                        <div class="details flex-space-beetween">  
+                            <p>Теги: фотографии</p>
+                            <time datetime="2020-06-29">29.06.2020</time>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+
+            <a href="./pages/how-to-motivate-yourself.html">
+                <figure class="large-article">
+                    <img src="./images/homemade-cheesecake.jpg" alt="фото к статье" />
+                    <figcaption>
+                        <h2>Домашний чизкейк</h2>
+                        <p>Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</p>
+                        <div class="details flex-space-beetween">
+                            <p>Теги: рецепты</p>
+                            <time datetime="2020-06-24">24.06.2020</time>
+                        </div>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+
+            <button>Показать еще</button>
+        </section>
+
+        <!-- About Me -->
+
+        <article id="about-me">
+            <h1>Обо мне</h1>
+            <div class="about-me-content">
+                <img src="./images/my-photo.jpg" alt="мое фото">
+                <div class="about-me-description">
+                    <p>Всем привет! Меня зовут Аня, и это мой личный блог. <br>
+                       Здесь ты найдёшь рассказы о моих путешествиях, снимки <br>
+                       на плёнку, рецепты, обзоры на книги. В общем, тексты о том, <br>
+                       что мне инетресно.<br><br>
+
+                       Я работаю копирайтером, поэтому мой блоге — это ещё и моё <br>
+                       портфолио. Ниже размещены несколько моих лучших <br>
+                       рабочих текстов. Буду рада новым сотрудничествам! <br><br>
+                       
+                       Если вы хотите написать мне — это можно сделать в соцсетях <br>
+                       или через <a href="#write-me" style="color: #000000;">форму</a>. Всегда приятно услышать обратную связь <br>
+                       от читателей и познакомиться поближе. <br><br>
+
+                       Приятного чтения!
+                    </p>
+
+                    <blockquote>
+                        Я верю, что каждый раз пробуя новое,<br>
+                        выходящее за зону моего комфорта,<br>
+                        я действительно узнаю настоящую<br>
+                        себя. 
+                    </blockquote>
+                 </div>
+            </div>
+        </article>
+
+        <!-- Portfolio -->
+
+        <section id="portfolio">
+            <h1>Портфолио</h1>
+            <div class="projects flex-space-beetween">
+                <a href="#">
+                    <div class="bg1-project">
+                        <h2>Блог HTML Academy</h2>
+                        <h3>«Как учиться продуктивно»</h3>
+                        <p>Про основные методы обучения, которые помогут быстро и надолго запомнить информацию.</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="bg2-project">
+                        <h2>Журнал «LNK»</h2>
+                        <h3>«Зачем поцели нужны человеку? И какие они бывают»</h3>
+                        <p>Поцелуи — повсеместная ежедневная практика. Но зачем люди целуются?<br>Какие смысли вкладывают в этот ритуал? И где корни этой практики?</p>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="bg3-project">
+                        <h2>Журнал «Т — Л»</h2>
+                        <h3>«Советы по эффективной удалённой работе»</h3>
+                        <p>Поделилась лайфхаками, которые помогают
+                        мне работать продуктивно из дома.</p>
+                    </div>
+                 </a>
+            </div>
+
+            <button class="uppercase">Показать еще</button>
+        </section>
+
+        <!-- Write Me -->
+
+        <section id="write-me">
+            <h1>Написать мне</h1>
+            <form class="write-me" action="#" method="post">
+                <div class="flex-space-beetween">
+                <div class="half-width"> 
+                    <label for="username-id">Ваше имя</label>
+                    <input type="text" id="username-id" name="name" placeholder="Иван Иванов" autocomplete="on" required>
+                </div>
+               
+                <div class="half-width">
+                    <label for="user-email-id">Email</label>
+                    <input type="email" id="user-email-id" name="email" placeholder="google@gmail.com" autocomplete="on" required>
+                </div>
+                </div>
+
+                <div>
+                    <label for="user-message-id">Сообщение</label>
+                    <textarea id="user-message-id" class="message-field message-area" name="message" placeholder="Напишите здесь ваше сообщение." required></textarea>
+                </div>
+
+                <input class="submit-button uppercase" type="submit">
+            </form>
+        </section>
+    </main>
+
+    <footer class="home-footer-color">
+        <ul>
+            <li><a href="#">ВК</a></li>
+            <li><a href="#">Телеграм</a></li>
+            <li><a href="#">Инстаграм</a></li>
+            <li><a href="#">Твиттер</a></li>
+        </ul>
+    </footer>
+
+    <script src="./scripts/oninput.js"></script>
+</body>
+
+</html>
