@@ -327,6 +327,7 @@ blockquote {
 
 .write-me textarea {
   height: 293px;
+  resize: none;
 }
 
 .write-me input,
@@ -593,6 +594,7 @@ button.like {
   padding: 20px;
   width: 406px;
   height: 208px;
+  resize: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 22px;
